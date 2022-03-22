@@ -14,7 +14,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/hello_first_fragment"
         android:textAlignment="viewEnd"
-        android:textColor="#5BA05F"
+        android:textColor="#61456747"
         android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="normal"
@@ -27,9 +27,12 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#2A6B9F6E"
         android:text="@string/next"
+        android:textColor="#52456747"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_first" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
